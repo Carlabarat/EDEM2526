@@ -34,9 +34,9 @@ if __name__ == "__main__":
     DB_IP_ADDRESS = os.getenv("DB_IP_ADDRESS")
     API_BASE_URL = f"http://{DB_IP_ADDRESS}:5000"
 
-    db_name = "<edem-user>_db"
-    username = "<edem-user>"
-    password = "<your-password>"
+    db_name = "carlabarat_db"
+    username = "carlabarat"
+    password = "edem2526"
 
     create_database(API_BASE_URL, db_name)
     create_user(API_BASE_URL, username, password)
